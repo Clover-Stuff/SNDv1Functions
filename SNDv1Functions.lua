@@ -135,7 +135,7 @@ end
 ---@param name string The name of the addon.
 ---@return boolean True if the addon exists.
 function IsAddonVisible(name)
-    return Addons.GetAddon(name).Exists
+    return Addons.GetAddon(name).Ready
 end
 
 --------------------------------------------------------------------------------
