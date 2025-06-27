@@ -101,7 +101,8 @@ Once imported, your script will be able to call functions like `GetCharacterName
 
 ## Unsupported Functions (for now... but Soon™)
 Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!  
-(Note: Some may be custom functions from Faye and not actually defined in the old SND, but I don't have a better list than what Friendly had.)
+> (Note: Some may be custom functions from Faye and not actually defined in the old SND, but I don't have a better list than what Friendly had.)
+
 | Function | Status | Contributor | Notes |
 |----------|--------|-------------|-------|
 | `ADContentHasPath()` | ❌Incomplete | — | — |
