@@ -92,7 +92,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `GetFlagZone()`        | ✅ Done  | [Friendly](https://github.com/WigglyMuffin)       |                                    |
 
 ## Pending Functions
-Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of pending functions!
+Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!
 | Function | Status | Contributor | Notes |
 |----------|--------|-------------|-------|
 | `ADContentHasPath()` | ❌ Incomplete | — | — |
