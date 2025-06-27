@@ -51,10 +51,10 @@ Once imported, your script will be able to call functions like `GetCharacterName
 
 ## Contributors
 
-- [StrawberryClover](https://github.com/StrawberryClover) / [Clover-Stuff](https://github.com/Clover-Stuff)  
-- [Nonu](https://github.com/Nonunon)  
-- [Friendly](https://github.com/WigglyMuffin)
-- [Faye](https://github.com/OhKannaDuh/Ferret/tree/master)
+- [StrawberryClover](https://github.com/StrawberryClover) / [Clover-Stuff](https://github.com/Clover-Stuff)  (me)
+- [Nonu](https://github.com/Nonunon) - provided some wrapper functions
+- [Friendly](https://github.com/WigglyMuffin) - provided some wrapper functions and the initial `vac_functions.lua` script
+- [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) - provided a reference list of SND1 functions
 
 ---
 
@@ -99,8 +99,10 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `PathIsRunning()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `IsAetheryteUnlocked()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 
-## Pending Functions
-Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!
+## Unsupported Functions (for now... but Soon™)
+Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!  
+> (Note: Some may be custom functions from Faye and not actually defined in the old SND, but I don't have a better list than what Friendly had.)
+
 | Function | Status | Contributor | Notes |
 |----------|--------|-------------|-------|
 | `ADContentHasPath()` | ❌Incomplete | — | — |
