@@ -20,11 +20,27 @@ Make sure to update your scripts accordingly before using `GetNodeText`.
 
 ## Usage
 
-This script provides wrappers for certain **SND v1 functions whose interfaces or usage have changed significantly in SND v2**. For example, many old convenience functions like `GetCharacterName()` were replaced by direct variable calls like `Entity.Player.Name`. This means older scripts won’t break outright but **won’t work exactly the same without updating either the calls or by importing these wrappers**.
+This script provides wrappers for certain **SND v1 functions whose interfaces or usage changed significantly in SND v2**. For example, many old functions like `GetCharacterName()` were replaced with direct references like `Entity.Player.Name`. These wrappers help older scripts behave more like they did in v1, easing the migration process.
 
-The goal is **not** to magically make all old SND v1 scripts work perfectly without modification, but to **help smooth the transition** by restoring familiar function calls where possible and providing practical examples of how to update your own scripts.
+The goal is **not** to magically make every v1 script work perfectly without changes, but to **restore familiar helper functions** where possible and offer examples to help with migration.
 
-Simply **import the main helper script [`SNDv1Functions.lua`](https://github.com/Clover-Stuff/SNDv1Functions/blob/main/SNDv1Functions.lua) alongside your existing Lua code** to regain many of the old helper function behaviors. Watch for specific warnings on functions that require additional attention, such as `GetNodeText`.
+### How to Import
+
+If you're new to importing Lua files in SND:
+
+1. Type `/snd` in-game to open the SomethingNeedDoing window.
+2. Click the **Settings** button at the top.
+3. Under **Lua Options**, add the path to the folder where you keep imported Lua scripts (like this one).
+   - Example: `D:/Users/Clover/Documents/snd_lua`
+   - If using backslashes (`\`), either escape them like `D:\\Users\\Clover\\Documents\\snd_lua`  
+     or replace them with forward slashes: `D:/Users/Clover/Documents/snd_lua`
+4. In your Lua script, add this line at the top:
+
+   ```lua
+   require("SNDv1Functions.lua")
+   ```
+
+Once imported, your script will be able to call functions like `GetCharacterName()` etc *mostly* as they worked in SND v1.
 
 > **Friendly Reminder:**  
 > When running your scripts, keep an eye on the `/xllog` console for any errors or warnings. It’s a great way to catch issues, especially during migration or when using wrapper functions like these, but it won't necessarily cover certain things like GetNodeText returning nil because it hasn't been updated with appropriate new node ID's.
