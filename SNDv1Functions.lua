@@ -32,7 +32,7 @@ Project URL: https://github.com/Clover-Stuff/SNDv1Functions
 
 This file contains various SND helper functions used in scripts.
 
-Some functions were reused from the `vac_functions.lua` repository by Friendly (WigglyMuffin):
+Some functions were reused from the `vac_functions.lua` repository by WigglyMuffin, maintained by Friendly:
 https://github.com/WigglyMuffin/SNDScripts/blob/main/vac_functions.lua
 
 These reused functions were added to fill gaps, as both projects worked on similar utilities.
@@ -41,6 +41,7 @@ Contributors:
 - Nonu: IsPlayerCasting(), IsPlayerAvailable(), GetCharacterCondition(), GetPlayerRawX/Y/ZPos(), GetZoneID(), LogInfo/Debug/Verbose, IsPlayerDead()
 - Friendly: Merged versions of GetCharacterCondition() and added GetFlagZone()
 - Clover-Stuff: GetCharacterName(), GetCharacterCondition(), GetDistanceToTarget(), GetNodeText(), GetTargetName(), IsAddonReady(), IsAddonVisible(), IsInZone(), IsMoving(), IsNodeVisible(), HasPlugin(), PathStop(), PathfindAndMoveTo(), PathfindInProgress(), PathIsRunning(), IsAetheryteUnlocked()
+- DhogGPT: HasFlightUnlocked()
 
 Feel free to expand this script further! Please keep contributor names with any new additions.
 ]]
@@ -210,6 +211,13 @@ function IsInZone(i)
 end
 
 --------------------------------------------------------------------------------
+-- Gets the current zone ID.
+---@return number TerritoryType ID.
+function GetZoneID() 
+    return Svc.ClientState.TerritoryType 
+end
+
+--------------------------------------------------------------------------------
 -- Returns the current target's name.
 ---@return string The name of the target or empty string if none.
 function GetTargetName()
@@ -273,13 +281,6 @@ end
 function GetPlayerRawZPos() 
     return Svc.ClientState.LocalPlayer.Position.Z
 end 
-
---------------------------------------------------------------------------------
--- Gets the current zone ID.
----@return number TerritoryType ID.
-function GetZoneID() 
-    return Svc.ClientState.TerritoryType 
-end
 
 --------------------------------------------------------------------------------
 -- Logs an informational message to Dalamud.

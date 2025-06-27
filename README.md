@@ -54,7 +54,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 - [StrawberryClover](https://github.com/StrawberryClover) / [Clover-Stuff](https://github.com/Clover-Stuff)  (me)
 - [Nonu](https://github.com/Nonunon) - provided some wrapper functions
 - [Friendly](https://github.com/barnicskolaci) - provided some wrapper functions and helps maintain the initial `vac_functions.lua` script
-- [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) - provided a reference list of SND1 functions
+- [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) - provided a reference list of potential SND1 functions
 
 ---
 
