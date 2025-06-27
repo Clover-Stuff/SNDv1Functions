@@ -92,6 +92,12 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `LogDebug()`           | ✅Done  | [Nonu](https://github.com/Nonunon)          |                                    |
 | `LogVerbose()`         | ✅Done  | [Nonu](https://github.com/Nonunon)          |                                    |
 | `GetFlagZone()`        | ✅Done  | [Friendly](https://github.com/WigglyMuffin)       |                                    |
+| `HasPlugin()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `PathStop()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `PathfindAndMoveTo()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `PathfindInProgress()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `PathIsRunning()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `IsAetheryteUnlocked()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 
 ## Pending Functions
 Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!
@@ -409,7 +415,6 @@ Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list 
 | `HasFlightUnlocked()` | ❌Incomplete | — | — |
 | `HasMaxProgress()` | ❌Incomplete | — | — |
 | `HasMaxQuality()` | ❌Incomplete | — | — |
-| `HasPlugin()` | ❌Incomplete | — | — |
 | `HasStats()` | ❌Incomplete | — | — |
 | `HasStatus()` | ❌Incomplete | — | — |
 | `HasStatusId()` | ❌Incomplete | — | — |
@@ -418,7 +423,6 @@ Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list 
 | `InSanctuary()` | ❌Incomplete | — | — |
 | `InternalGetMacroText()` | ❌Incomplete | — | — |
 | `IsAchievementComplete()` | ❌Incomplete | — | — |
-| `IsAetheryteUnlocked()` | ❌Incomplete | — | — |
 | `IsCollectable()` | ❌Incomplete | — | — |
 | `IsCrafting()` | ❌Incomplete | — | — |
 | `IsFocusTargetCasting()` | ❌Incomplete | — | — |
@@ -477,15 +481,11 @@ Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list 
 | `PathGetAlignCamera()` | ❌Incomplete | — | — |
 | `PathGetMovementAllowed()` | ❌Incomplete | — | — |
 | `PathGetTolerance()` | ❌Incomplete | — | — |
-| `PathIsRunning()` | ❌Incomplete | — | — |
 | `PathMoveTo()` | ❌Incomplete | — | — |
 | `PathNumWaypoints()` | ❌Incomplete | — | — |
 | `PathSetAlignCamera()` | ❌Incomplete | — | — |
 | `PathSetMovementAllowed()` | ❌Incomplete | — | — |
 | `PathSetTolerance()` | ❌Incomplete | — | — |
-| `PathStop()` | ❌Incomplete | — | — |
-| `PathfindAndMoveTo()` | ❌Incomplete | — | — |
-| `PathfindInProgress()` | ❌Incomplete | — | — |
 | `PauseYesAlready()` | ❌Incomplete | — | — |
 | `QueryMeshNearestPointX()` | ❌Incomplete | — | — |
 | `QueryMeshNearestPointY()` | ❌Incomplete | — | — |
