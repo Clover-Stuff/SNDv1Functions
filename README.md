@@ -31,8 +31,8 @@ If you're new to importing Lua files in SND:
 1. Type `/snd` in-game to open the SomethingNeedDoing window.
 2. Click the **Settings** button at the top.
 3. Under **Lua Options**, add the path to the folder where you keep imported Lua scripts (like this one).
-   - Example: `D:/Users/Clover/Documents/snd_lua`
-   - If using backslashes (`\`), either escape them like `D:\\Users\\Clover\\Documents\\snd_lua`  
+   - Example: `D:/Users/Clover/Documents/snd_lua_imports`
+   - If using backslashes (`\`), either escape them like `D:\\Users\\Clover\\Documents\\snd_lua_imports`  
      or replace them with forward slashes, as I did in my example.
 4. In your Lua script, add this line at the top:
 
