@@ -27,7 +27,7 @@
 --------------------------------------------------------------------------------
 --[[
 SNDv1 Helper Wrappers for SNDv2 Compatibility
-Version: 1.1.0
+Version: 1.2.0
 Project URL: https://github.com/Clover-Stuff/SNDv1Functions
 
 This file contains various SND helper functions used in scripts.
@@ -127,7 +127,8 @@ end
 ---@param name string The name of the addon.
 ---@return boolean True if the addon is ready and visible.
 function IsAddonReady(name)
-    return Addons.GetAddon(name).Ready
+  local a = Addons.GetAddon(name)
+  return a and a.Exists and a.Ready
 end
 
 --------------------------------------------------------------------------------
@@ -137,7 +138,7 @@ end
 ---@param name string The name of the addon.
 ---@return boolean True if the addon is ready and visible.
 function IsAddonVisible(name)
-    return Addons.GetAddon(name).Ready
+    return IsAddonReady(name)
 end
 
 --------------------------------------------------------------------------------
@@ -402,4 +403,11 @@ end
 ---@return boolean True if the aetheryte is unlocked, false otherwise.
 function IsAetheryteUnlocked(aetheryteId)
   return Instances.Telepo:IsAetheryteUnlocked(aetheryteId)
+end
+
+--------------------------------------------------------------------------------
+--- Checks if the player has flight unlocked.
+--- @return boolean True if the player can fly, false otherwise.
+function HasFlightUnlocked()
+    return Player.CanFly
 end

@@ -60,7 +60,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 
 ## Additional Resources
 
-- [Original vac_functions.lua repository by WigglyMuffin](https://github.com/WigglyMuffin/SNDScripts/blob/main/vac_functions.lua), which may be updated with functions I have not included in the future since they’re working on similar utilities.
+- [Original vac_functions.lua repository by WigglyMuffin](https://github.com/WigglyMuffin/SNDScripts/blob/main/vac_functions.lua), which may be updated with functions I have not included in the future since contributors are working on similar utilities with it.
 
 
 
@@ -76,7 +76,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `GetDistanceToTarget()`| ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
 | `GetNodeText()`        | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  | `@warning` about updated node IDs  |
 | `GetTargetName()`      | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
-| `IsAddonReady()`       | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
+| `IsAddonReady()`       | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)[ѪѦ](https://github.com/xa-io)  |                                    |
 | `IsAddonVisible()`     | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
 | `IsInZone()`           | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
 | `IsMoving()`           | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
@@ -98,6 +98,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `PathfindInProgress()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `PathIsRunning()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `IsAetheryteUnlocked()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
+| `HasFlightUnlocked()` | ✅Done | DhogGPT | — |
 
 ## Unsupported Functions (for now... but Soon™)
 Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!  
@@ -414,7 +415,6 @@ Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list 
 | `GetZoneInstance()` | ❌Incomplete | — | — |
 | `GetZoneName()` | ❌Incomplete | — | — |
 | `HasCondition()` | ❌Incomplete | — | — |
-| `HasFlightUnlocked()` | ❌Incomplete | — | — |
 | `HasMaxProgress()` | ❌Incomplete | — | — |
 | `HasMaxQuality()` | ❌Incomplete | — | — |
 | `HasStats()` | ❌Incomplete | — | — |
