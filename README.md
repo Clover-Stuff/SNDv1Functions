@@ -24,7 +24,7 @@ This script provides wrappers for certain **SND v1 functions whose interfaces or
 
 The goal is **not** to magically make all old SND v1 scripts work perfectly without modification, but to **help smooth the transition** by restoring familiar function calls where possible and providing practical examples of how to update your own scripts.
 
-Simply **import this script alongside your existing Lua code** to regain many of the old helper function behaviors. Watch for specific warnings on functions that require additional attention, such as `GetNodeText`.
+Simply **import the main helper script [`SNDv1Functions.lua`](https://github.com/Clover-Stuff/SNDv1Functions/blob/main/SNDv1Functions.lua) alongside your existing Lua code** to regain many of the old helper function behaviors. Watch for specific warnings on functions that require additional attention, such as `GetNodeText`.
 
 > **Friendly Reminder:**  
 > When running your scripts, keep an eye on the `/xllog` console for any errors or warnings. It’s a great way to catch issues, especially during migration or when using wrapper functions like these, but it won't necessarily cover certain things like GetNodeText returning nil because it hasn't been updated with appropriate new node ID's.
