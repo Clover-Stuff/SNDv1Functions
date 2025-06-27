@@ -2,7 +2,7 @@
 
 This project provides wrappers for certain SND (SomethingNeedDoing) v1 functions that were removed or changed in SNDv2. It aims to ease migration for personal scripts and serve as practical examples for transitioning between versions.
 
-While there is a similar utility by WigglyMuffin that covers many related functions, it includes additional features beyond just the core SND v1 helpers. This project offers a lean, focused set of functions that only cover the original SND v1 helpers for simpler import and use.
+While there is a similar utility by Friendly (WigglyMuffin) that covers many related functions, it includes additional features beyond just the core SND v1 helpers. This project offers a lean, focused set of functions that only cover the original SND v1 helpers for simpler import and use.
 
 ---
 
