@@ -8,11 +8,10 @@
 ***  The following are differences between SNDv1 and SNDv2 that cannot be    ***
 ***  fixed and WILL function differently, even with a wrapper.               ***
 ***                                                                          ***
-*** * GetNodeText Change *                                                   ***
+*** * GetNodeText Node ID's changed *                                        ***
 *** GetNodeText no longer works like v1 — it uses actual Node IDs,           ***
 *** not node list indices. Without adjusting your calls, it will             ***
 *** return nil or incorrect text!                                            ***
-***                                                                          ***
 *** Check /xldata or /tweaks Debug to get the correct Node IDs. Ensure you   ***
 *** are using node ID's and not indices from the node list.                  ***
 ***                                                                          ***
