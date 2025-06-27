@@ -1,4 +1,4 @@
-# SND Helper Functions for SNDv2
+# SNDv1 Helper Wrappers for SNDv2 Compatibility
 
 This project provides wrappers for certain SND (SomethingNeedDoing) v1 functions that were removed or changed in SNDv2. It aims to ease migration for personal scripts and serve as practical examples for transitioning between versions.
 
