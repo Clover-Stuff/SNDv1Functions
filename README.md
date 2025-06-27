@@ -99,7 +99,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `PathIsRunning()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `IsAetheryteUnlocked()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 
-## Pending Functions
+## Unsupported Functions (for now... but Soon™)
 Thanks to [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) for the list of functions!
 | Function | Status | Contributor | Notes |
 |----------|--------|-------------|-------|
