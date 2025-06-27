@@ -125,15 +125,17 @@ end
 --------------------------------------------------------------------------------
 -- Checks if an addon is ready.
 ---@param name string The name of the addon.
----@return boolean True if the addon is ready.
+---@return boolean True if the addon is ready and visible.
 function IsAddonReady(name)
     return Addons.GetAddon(name).Ready
 end
 
 --------------------------------------------------------------------------------
 -- Checks if an addon is visible.
+-- 
+-- This is essentially the same thing as IsAddonReady anyways.
 ---@param name string The name of the addon.
----@return boolean True if the addon exists.
+---@return boolean True if the addon is ready and visible.
 function IsAddonVisible(name)
     return Addons.GetAddon(name).Ready
 end
