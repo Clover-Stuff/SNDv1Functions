@@ -27,7 +27,7 @@
 --------------------------------------------------------------------------------
 --[[
 SNDv1 Helper Wrappers for SNDv2 Compatibility
-Version: 1.0.0
+Version: 1.0.1
 Project URL: https://github.com/Clover-Stuff/SNDv1Functions
 
 This file contains various SND helper functions used in scripts.
@@ -113,24 +113,16 @@ function IsNodeVisible(addonName, ...)
 end
 
 --- Gets the text from a node in the specified addon.
--- @param addonName string The name of the addon.
--- @param ... any Node path arguments.
--- @return string The text of the node or empty string if unavailable.
--- @warning This version uses true Node IDs. Old calls may return nil!
---- GetNodeText(addonName, ...)
 --
--- Example usage:
--- GetNodeText("_ToDoList", 1, 7001, 2, 2)
+-- Note: This function's behavior changed in SNDv2.
+-- It now requires actual Node IDs instead of node list indices.
+-- Calls using old indices may return nil or incorrect text.
+--
+-- To find correct Node IDs, check sequences with '#' in `/xldata` or `/tweaks Debug`.
 --
 -- @param addonName string The name of the addon.
 -- @param ... any Node path arguments.
--- @return string The text of the node or an empty string if unavailable.
--- @warning
--- GetNodeText is no longer the same as it was in v1. Any uses of GetNodeText without adjusting
--- the node ID's to be the correct values will return the wrong text (or nil).
--- It used to return text based on the ID's in the node list, but it has shifted to using
--- the actual Node ID, same as the old GetNodeVisible.
--- To get the correct Node ID, look for sequences with # symbols in xldata or use tweaks Debug.
+-- @return string The text of the node, or empty string if unavailable.
 function GetNodeText(addonName, ...)
   if (IsAddonReady(addonName)) then
     local node = Addons.GetAddon(addonName):GetNode(...)
