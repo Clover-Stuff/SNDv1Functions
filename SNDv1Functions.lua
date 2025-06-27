@@ -27,6 +27,10 @@
 -- About this script
 --------------------------------------------------------------------------------
 --[[
+SNDv1 Helper Wrappers for SNDv2 Compatibility
+Version: 1.0.0
+Project URL: https://github.com/Clover-Stuff/SNDv1Functions
+
 This file contains various SND helper functions used in scripts.
 
 Some functions were reused from the `vac_functions.lua` repository by WigglyMuffin:
@@ -37,10 +41,11 @@ These reused functions were added to fill gaps, as both projects worked on simil
 Contributors:
 - Nonu: IsPlayerCasting(), IsPlayerAvailable(), GetCharacterCondition(), GetPlayerRawX/Y/ZPos(), GetZoneID(), LogInfo/Debug/Verbose, IsPlayerDead()
 - Friendly: Merged versions of GetCharacterCondition() and added GetFlagZone()
-- Clover-Stuff (me): Many original functions including GetCharacterName(), GetCharacterCondition(), GetDistanceToTarget(), GetNodeText(), GetTargetName(), IsAddonReady(), IsAddonVisible(), IsInZone(), IsMoving(), IsNodeVisible()
+- Clover-Stuff: GetCharacterName(), GetCharacterCondition(), GetDistanceToTarget(), GetNodeText(), GetTargetName(), IsAddonReady(), IsAddonVisible(), IsInZone(), IsMoving(), IsNodeVisible()
 
 Feel free to expand this script further! Please keep contributor names with any new additions.
 ]]
+
 
 
 --------------------------------------------------------------------------------
@@ -258,3 +263,4 @@ end
 function GetFlagZone()
     return Instances.Map.Flag.TerritoryId
 end
+
