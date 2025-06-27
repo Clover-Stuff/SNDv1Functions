@@ -4,7 +4,7 @@ This project provides wrappers for certain SND (SomethingNeedDoing) v1 functions
 
 All functions include EmmyLua-style annotations (---@param, ---@return) to improve editor support and ease of use by providing clear parameter and return type information. This helps with autocompletion and inline documentation in editors that support these annotations.
 
-While there is a similar utility by Friendly (WigglyMuffin) that covers many related functions, it includes additional features beyond just the core SND v1 helpers. This project offers a lean, focused set of functions that only cover the original SND v1 helpers for simple import and use.
+While there is a similar utility by Friendly/WigglyMuffin that covers many related functions, it includes additional features beyond just the core SND v1 helpers. This project offers a lean, focused set of functions that only cover the original SND v1 helpers for simple import and use.
 
 ---
 
@@ -53,7 +53,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 
 - [StrawberryClover](https://github.com/StrawberryClover) / [Clover-Stuff](https://github.com/Clover-Stuff)  (me)
 - [Nonu](https://github.com/Nonunon) - provided some wrapper functions
-- [Friendly](https://github.com/WigglyMuffin) - provided some wrapper functions and the initial `vac_functions.lua` script
+- [Friendly](https://github.com/barnicskolaci) - provided some wrapper functions and helps maintain the initial `vac_functions.lua` script
 - [Faye](https://github.com/OhKannaDuh/Ferret/tree/master) - provided a reference list of SND1 functions
 
 ---
@@ -72,7 +72,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | Function                | Status   | Contributor   | Notes                              |
 |------------------------|----------|---------------|------------------------------------|
 | `GetCharacterName()`   | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
-| `GetCharacterCondition()` | ✅Done  | [Nonu](https://github.com/Nonunon), [Friendly](https://github.com/WigglyMuffin), [Clover-Stuff](https://github.com/Clover-Stuff) |                                    |
+| `GetCharacterCondition()` | ✅Done  | [Nonu](https://github.com/Nonunon), [Friendly](https://github.com/barnicskolaci), [Clover-Stuff](https://github.com/Clover-Stuff) |                                    |
 | `GetDistanceToTarget()`| ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
 | `GetNodeText()`        | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  | `@warning` about updated node IDs  |
 | `GetTargetName()`      | ✅Done  | [Clover-Stuff](https://github.com/Clover-Stuff)  |                                    |
@@ -91,7 +91,7 @@ Once imported, your script will be able to call functions like `GetCharacterName
 | `LogInfo()`            | ✅Done  | [Nonu](https://github.com/Nonunon)          |                                    |
 | `LogDebug()`           | ✅Done  | [Nonu](https://github.com/Nonunon)          |                                    |
 | `LogVerbose()`         | ✅Done  | [Nonu](https://github.com/Nonunon)          |                                    |
-| `GetFlagZone()`        | ✅Done  | [Friendly](https://github.com/WigglyMuffin)       |                                    |
+| `GetFlagZone()`        | ✅Done  | [Friendly](https://github.com/barnicskolaci)       |                                    |
 | `HasPlugin()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `PathStop()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
 | `PathfindAndMoveTo()` | ✅Done | [Clover-Stuff](https://github.com/Clover-Stuff) |  |
