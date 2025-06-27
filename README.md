@@ -94,453 +94,453 @@ Once imported, your script will be able to call functions like `GetCharacterName
 
 | Function | Status | Contributor | Notes |
 |----------|--------|-------------|-------|
-| `ADContentHasPath()` | ❌ Not Done | — | — |
-| `ADGetConfig()` | ❌ Not Done | — | — |
-| `ADIsLooping()` | ❌ Not Done | — | — |
-| `ADIsNavigating()` | ❌ Not Done | — | — |
-| `ADIsStopped()` | ❌ Not Done | — | — |
-| `ADListConfig()` | ❌ Not Done | — | — |
-| `ADRun()` | ❌ Not Done | — | — |
-| `ADSetConfig()` | ❌ Not Done | — | — |
-| `ADStart()` | ❌ Not Done | — | — |
-| `ADStop()` | ❌ Not Done | — | — |
-| `ARAbortAllTasks()` | ❌ Not Done | — | — |
-| `ARAnyWaitingToBeProcessed()` | ❌ Not Done | — | — |
-| `ARAreAnyRetainersAvailableForCurrentChara()` | ❌ Not Done | — | — |
-| `ARCanAutoLogin()` | ❌ Not Done | — | — |
-| `ARDisableAllFunctions()` | ❌ Not Done | — | — |
-| `ARDiscardGetItemsToDiscard()` | ❌ Not Done | — | — |
-| `AREnableMultiMode()` | ❌ Not Done | — | — |
-| `AREnqueueHET()` | ❌ Not Done | — | — |
-| `AREnqueueInitiation()` | ❌ Not Done | — | — |
-| `ARFinishCharacterPostProcess()` | ❌ Not Done | — | — |
-| `ARGetCharacterCIDs()` | ❌ Not Done | — | — |
-| `ARGetCharacterData()` | ❌ Not Done | — | — |
-| `ARGetClosestRetainerVentureSecondsRemaining()` | ❌ Not Done | — | — |
-| `ARGetEnabledRetainers()` | ❌ Not Done | — | — |
-| `ARGetGCInfo()` | ❌ Not Done | — | — |
-| `ARGetInventoryFreeSlotCount()` | ❌ Not Done | — | — |
-| `ARGetMultiModeEnabled()` | ❌ Not Done | — | — |
-| `ARGetOptionRetainerSense()` | ❌ Not Done | — | — |
-| `ARGetOptionRetainerSenseThreshold()` | ❌ Not Done | — | — |
-| `ARGetRegisteredCharacters()` | ❌ Not Done | — | — |
-| `ARGetRegisteredEnabledCharacters()` | ❌ Not Done | — | — |
-| `ARGetRegisteredEnabledRetainers()` | ❌ Not Done | — | — |
-| `ARGetRegisteredRetainers()` | ❌ Not Done | — | — |
-| `ARIsBusy()` | ❌ Not Done | — | — |
-| `ARRelog()` | ❌ Not Done | — | — |
-| `ARRetainersWaitingToBeProcessed()` | ❌ Not Done | — | — |
-| `ARSetMultiModeEnabled()` | ❌ Not Done | — | — |
-| `ARSetOptionRetainerSense()` | ❌ Not Done | — | — |
-| `ARSetOptionRetainerSenseThreshold()` | ❌ Not Done | — | — |
-| `ARSetSuppressed()` | ❌ Not Done | — | — |
-| `ARSubsWaitingToBeProcessed()` | ❌ Not Done | — | — |
-| `ATAddItemToCraftList()` | ❌ Not Done | — | — |
-| `ATAddNewCraftList()` | ❌ Not Done | — | — |
-| `ATCurrentCharacter()` | ❌ Not Done | — | — |
-| `ATDisableBackgroundFilter()` | ❌ Not Done | — | — |
-| `ATDisableCraftList()` | ❌ Not Done | — | — |
-| `ATDisableUiFilter()` | ❌ Not Done | — | — |
-| `ATEnableBackgroundFilter()` | ❌ Not Done | — | — |
-| `ATEnableCraftList()` | ❌ Not Done | — | — |
-| `ATEnableUiFilter()` | ❌ Not Done | — | — |
-| `ATGetCharacterItems()` | ❌ Not Done | — | — |
-| `ATGetCharacterItemsByType()` | ❌ Not Done | — | — |
-| `ATGetCharactersOwnedByActive()` | ❌ Not Done | — | — |
-| `ATGetCraftItems()` | ❌ Not Done | — | — |
-| `ATGetCraftLists()` | ❌ Not Done | — | — |
-| `ATGetFilterItems()` | ❌ Not Done | — | — |
-| `ATGetRetrievalItems()` | ❌ Not Done | — | — |
-| `ATGetSearchFilters()` | ❌ Not Done | — | — |
-| `ATInventoryCountByType()` | ❌ Not Done | — | — |
-| `ATInventoryCountByTypes()` | ❌ Not Done | — | — |
-| `ATIsInitialized()` | ❌ Not Done | — | — |
-| `ATItemCount()` | ❌ Not Done | — | — |
-| `ATItemCountHQ()` | ❌ Not Done | — | — |
-| `ATItemCountOwned()` | ❌ Not Done | — | — |
-| `ATRemoveItemFromCraftList()` | ❌ Not Done | — | — |
-| `ATToggleBackgroundFilter()` | ❌ Not Done | — | — |
-| `ATToggleCraftList()` | ❌ Not Done | — | — |
-| `ATToggleUiFilter()` | ❌ Not Done | — | — |
-| `ArtisanCraftItem()` | ❌ Not Done | — | — |
-| `ArtisanGetEnduranceStatus()` | ❌ Not Done | — | — |
-| `ArtisanGetStopRequest()` | ❌ Not Done | — | — |
-| `ArtisanIsListPaused()` | ❌ Not Done | — | — |
-| `ArtisanIsListRunning()` | ❌ Not Done | — | — |
-| `ArtisanSetEnduranceStatus()` | ❌ Not Done | — | — |
-| `ArtisanSetListPause()` | ❌ Not Done | — | — |
-| `ArtisanSetStopRequest()` | ❌ Not Done | — | — |
-| `BMAddTransientStrategy()` | ❌ Not Done | — | — |
-| `BMAddTransientStrategyTargetEnemyOID()` | ❌ Not Done | — | — |
-| `BMClearActive()` | ❌ Not Done | — | — |
-| `BMCreate()` | ❌ Not Done | — | — |
-| `BMDelete()` | ❌ Not Done | — | — |
-| `BMGet()` | ❌ Not Done | — | — |
-| `BMGetActive()` | ❌ Not Done | — | — |
-| `BMGetForceDisabled()` | ❌ Not Done | — | — |
-| `BMSetActive()` | ❌ Not Done | — | — |
-| `BMSetForceDisabled()` | ❌ Not Done | — | — |
-| `CanExtractMateria()` | ❌ Not Done | — | — |
-| `ClearFocusTarget()` | ❌ Not Done | — | — |
-| `ClearTarget()` | ❌ Not Done | — | — |
-| `CrashTheGame()` | ❌ Not Done | — | — |
-| `DeleteAllAutoHookAnonymousPresets()` | ❌ Not Done | — | — |
-| `DeletedSelectedAutoHookPreset()` | ❌ Not Done | — | — |
-| `DeliverooIsTurnInRunning()` | ❌ Not Done | — | — |
-| `DistanceBetween()` | ❌ Not Done | — | — |
-| `DoesObjectExist()` | ❌ Not Done | — | — |
-| `DropboxGetItemQuantity()` | ❌ Not Done | — | — |
-| `DropboxIsBusy()` | ❌ Not Done | — | — |
-| `DropboxSetItemQuantity()` | ❌ Not Done | — | — |
-| `DropboxStart()` | ❌ Not Done | — | — |
-| `DropboxStop()` | ❌ Not Done | — | — |
-| `Equals()` | ❌ Not Done | — | — |
-| `ExecuteAction()` | ❌ Not Done | — | — |
-| `ExecuteGeneralAction()` | ❌ Not Done | — | — |
-| `FocusTargetHasStatus()` | ❌ Not Done | — | — |
-| `GetAcceptedQuests()` | ❌ Not Done | — | — |
-| `GetAccursedHoardRawX()` | ❌ Not Done | — | — |
-| `GetAccursedHoardRawY()` | ❌ Not Done | — | — |
-| `GetAccursedHoardRawZ()` | ❌ Not Done | — | — |
-| `GetActionStackCount()` | ❌ Not Done | — | — |
-| `GetActiveFates()` | ❌ Not Done | — | — |
-| `GetActiveMacroName()` | ❌ Not Done | — | — |
-| `GetActiveMiniMapGatheringMarker()` | ❌ Not Done | — | — |
-| `GetActiveWeatherID()` | ❌ Not Done | — | — |
-| `GetAddersGCRank()` | ❌ Not Done | — | — |
-| `GetAetheryteList()` | ❌ Not Done | — | — |
-| `GetAetheryteName()` | ❌ Not Done | — | — |
-| `GetAetheryteRawPos()` | ❌ Not Done | — | — |
-| `GetAetherytesInZone()` | ❌ Not Done | — | — |
-| `GetBronzeChestLocations()` | ❌ Not Done | — | — |
-| `GetBuddyTimeRemaining()` | ❌ Not Done | — | — |
-| `GetClassJobId()` | ❌ Not Done | — | Returns the current class/job ID (type: Job)  |
-| `GetClicks()` | ❌ Not Done | — | — |
-| `GetClipboard()` | ❌ Not Done | — | — |
-| `GetCondition()` | ❌ Not Done | — | — |
-| `GetContentTimeLeft()` | ❌ Not Done | — | — |
-| `GetCp()` | ❌ Not Done | — | — |
-| `GetCurrentBait()` | ❌ Not Done | — | — |
-| `GetCurrentEorzeaHour()` | ❌ Not Done | — | Returns the current in-game hour (type: integer) |
-| `GetCurrentEorzeaMinute()` | ❌ Not Done | — | Returns the current in-game minute (type: integer) |
-| `GetCurrentEorzeaSecond()` | ❌ Not Done | — | Returns the current in-game second (type: integer) |
-| `GetCurrentEorzeaTimestamp()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission1Goal()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission1Name()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission1Progress()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission1Type()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission2Goal()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission2Name()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission2Progress()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission2Type()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission3Goal()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission3Name()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission3Progress()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingMission3Type()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingPoints()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingRoute()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingScore()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingStatus()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingTimeOfDay()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingTimeOffset()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingTotalScore()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingWeatherID()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingZone()` | ❌ Not Done | — | — |
-| `GetCurrentOceanFishingZoneTimeLeft()` | ❌ Not Done | — | — |
-| `GetCurrentWorld()` | ❌ Not Done | — | — |
-| `GetDDPassageProgress()` | ❌ Not Done | — | — |
-| `GetDiademAetherGaugeBarCount()` | ❌ Not Done | — | — |
-| `GetDistanceToFocusTarget()` | ❌ Not Done | — | — |
-| `GetDistanceToObject()` | ❌ Not Done | — | — |
-| `GetDistanceToPartyMember()` | ❌ Not Done | — | — |
-| `GetDistanceToPoint()` | ❌ Not Done | — | — |
-| `GetDurability()` | ❌ Not Done | — | — |
-| `GetFCGrandCompany()` | ❌ Not Done | — | — |
-| `GetFCOnlineMembers()` | ❌ Not Done | — | — |
-| `GetFCRank()` | ❌ Not Done | — | — |
-| `GetFCTotalMembers()` | ❌ Not Done | — | — |
-| `GetFateChain()` | ❌ Not Done | — | — |
-| `GetFateDuration()` | ❌ Not Done | — | — |
-| `GetFateEventItem()` | ❌ Not Done | — | — |
-| `GetFateHandInCount()` | ❌ Not Done | — | — |
-| `GetFateIconId()` | ❌ Not Done | — | — |
-| `GetFateIsBonus()` | ❌ Not Done | — | — |
-| `GetFateLevel()` | ❌ Not Done | — | — |
-| `GetFateLocationX()` | ❌ Not Done | — | — |
-| `GetFateLocationY()` | ❌ Not Done | — | — |
-| `GetFateLocationZ()` | ❌ Not Done | — | — |
-| `GetFateMaxLevel()` | ❌ Not Done | — | — |
-| `GetFateName()` | ❌ Not Done | — | — |
-| `GetFateProgress()` | ❌ Not Done | — | — |
-| `GetFateRadius()` | ❌ Not Done | — | — |
-| `GetFateStartTimeEpoch()` | ❌ Not Done | — | — |
-| `GetFateState()` | ❌ Not Done | — | — |
-| `GetFlagXCoord()` | ❌ Not Done | — | — |
-| `GetFlagYCoord()` | ❌ Not Done | — | — |
-| `GetFlamesGCRank()` | ❌ Not Done | — | — |
-| `GetFocusTargetActionID()` | ❌ Not Done | — | — |
-| `GetFocusTargetFateID()` | ❌ Not Done | — | — |
-| `GetFocusTargetHP()` | ❌ Not Done | — | — |
-| `GetFocusTargetHPP()` | ❌ Not Done | — | — |
-| `GetFocusTargetMaxHP()` | ❌ Not Done | — | — |
-| `GetFocusTargetName()` | ❌ Not Done | — | — |
-| `GetFocusTargetRawXPos()` | ❌ Not Done | — | — |
-| `GetFocusTargetRawYPos()` | ❌ Not Done | — | — |
-| `GetFocusTargetRawZPos()` | ❌ Not Done | — | — |
-| `GetFocusTargetRotation()` | ❌ Not Done | — | — |
-| `GetFreeSlotsInContainer()` | ❌ Not Done | — | — |
-| `GetGil()` | ❌ Not Done | — | — |
-| `GetGoldChestLocations()` | ❌ Not Done | — | — |
-| `GetGp()` | ❌ Not Done | — | — |
-| `GetHP()` | ❌ Not Done | — | — |
-| `GetHashCode()` | ❌ Not Done | — | — |
-| `GetHomeWorld()` | ❌ Not Done | — | — |
-| `GetInventoryFreeSlotCount()` | ❌ Not Done | — | — |
-| `GetItemCount()` | ❌ Not Done | — | — |
-| `GetItemCountInContainer()` | ❌ Not Done | — | — |
-| `GetItemCountInSlot()` | ❌ Not Done | — | — |
-| `GetItemIdInSlot()` | ❌ Not Done | — | — |
-| `GetItemIdsInContainer()` | ❌ Not Done | — | — |
-| `GetItemName()` | ❌ Not Done | — | — |
-| `GetJobExp()` | ❌ Not Done | — | — |
-| `GetLevel()` | ❌ Not Done | — | — |
-| `GetLimitBreakBarCount()` | ❌ Not Done | — | — |
-| `GetLimitBreakBarValue()` | ❌ Not Done | — | — |
-| `GetLimitBreakCurrentValue()` | ❌ Not Done | — | — |
-| `GetMP()` | ❌ Not Done | — | — |
-| `GetMaelstromGCRank()` | ❌ Not Done | — | — |
-| `GetMaxCp()` | ❌ Not Done | — | — |
-| `GetMaxDurability()` | ❌ Not Done | — | — |
-| `GetMaxGp()` | ❌ Not Done | — | — |
-| `GetMaxHP()` | ❌ Not Done | — | — |
-| `GetMaxMP()` | ❌ Not Done | — | — |
-| `GetMaxProgress()` | ❌ Not Done | — | — |
-| `GetMaxQuality()` | ❌ Not Done | — | — |
-| `GetMimicChestLocations()` | ❌ Not Done | — | — |
-| `GetMonsterNoteRankInfo()` | ❌ Not Done | — | — |
-| `GetNearbyObjectNames()` | ❌ Not Done | — | — |
-| `GetNearestFate()` | ❌ Not Done | — | — |
-| `GetNodeListCount()` | ❌ Not Done | — | — |
-| `GetObjectActionID()` | ❌ Not Done | — | — |
-| `GetObjectDataID()` | ❌ Not Done | — | — |
-| `GetObjectFateID()` | ❌ Not Done | — | — |
-| `GetObjectHP()` | ❌ Not Done | — | — |
-| `GetObjectHPP()` | ❌ Not Done | — | — |
-| `GetObjectHitboxRadius()` | ❌ Not Done | — | — |
-| `GetObjectHuntRank()` | ❌ Not Done | — | — |
-| `GetObjectMaxHP()` | ❌ Not Done | — | — |
-| `GetObjectRawXPos()` | ❌ Not Done | — | — |
-| `GetObjectRawYPos()` | ❌ Not Done | — | — |
-| `GetObjectRawZPos()` | ❌ Not Done | — | — |
-| `GetObjectRotation()` | ❌ Not Done | — | — |
-| `GetPartyLeadIndex()` | ❌ Not Done | — | — |
-| `GetPartyMemberActionID()` | ❌ Not Done | — | — |
-| `GetPartyMemberHP()` | ❌ Not Done | — | — |
-| `GetPartyMemberHPP()` | ❌ Not Done | — | — |
-| `GetPartyMemberMaxHP()` | ❌ Not Done | — | — |
-| `GetPartyMemberName()` | ❌ Not Done | — | — |
-| `GetPartyMemberRawXPos()` | ❌ Not Done | — | — |
-| `GetPartyMemberRawYPos()` | ❌ Not Done | — | — |
-| `GetPartyMemberRawZPos()` | ❌ Not Done | — | — |
-| `GetPartyMemberRotation()` | ❌ Not Done | — | — |
-| `GetPartyMemberWorldId()` | ❌ Not Done | — | — |
-| `GetPartyMemberWorldName()` | ❌ Not Done | — | — |
-| `GetPassageLocation()` | ❌ Not Done | — | — |
-| `GetPenaltyRemainingInMinutes()` | ❌ Not Done | — | — |
-| `GetPercentHQ()` | ❌ Not Done | — | — |
-| `GetPlayerAccountId()` | ❌ Not Done | — | — |
-| `GetPlayerContentId()` | ❌ Not Done | — | — |
-| `GetPlayerGC()` | ❌ Not Done | — | — |
-| `GetPluginVersion()` | ❌ Not Done | — | — |
-| `GetProgress()` | ❌ Not Done | — | — |
-| `GetProgressIncrease()` | ❌ Not Done | — | — |
-| `GetQuality()` | ❌ Not Done | — | — |
-| `GetQualityIncrease()` | ❌ Not Done | — | — |
-| `GetQuestAlliedSociety()` | ❌ Not Done | — | — |
-| `GetQuestIDByName()` | ❌ Not Done | — | — |
-| `GetQuestSequence()` | ❌ Not Done | — | — |
-| `GetRealRecastTime()` | ❌ Not Done | — | — |
-| `GetRealRecastTimeElapsed()` | ❌ Not Done | — | — |
-| `GetRealSpellCooldown()` | ❌ Not Done | — | — |
-| `GetRecastTime()` | ❌ Not Done | — | — |
-| `GetRecastTimeElapsed()` | ❌ Not Done | — | — |
-| `GetRequestedAchievementProgress()` | ❌ Not Done | — | — |
-| `GetSNDProperty()` | ❌ Not Done | — | — |
-| `GetSelectIconStringText()` | ❌ Not Done | — | — |
-| `GetSelectStringText()` | ❌ Not Done | — | — |
-| `GetShieldPercentage()` | ❌ Not Done | — | — |
-| `GetSilverChestLocations()` | ❌ Not Done | — | — |
-| `GetSpellCooldown()` | ❌ Not Done | — | — |
-| `GetSpellCooldownInt()` | ❌ Not Done | — | — |
-| `GetStatusSourceID()` | ❌ Not Done | — | — |
-| `GetStatusStackCount()` | ❌ Not Done | — | — |
-| `GetStatusTimeRemaining()` | ❌ Not Done | — | — |
-| `GetStep()` | ❌ Not Done | — | — |
-| `GetTargetActionID()` | ❌ Not Done | — | — |
-| `GetTargetFateID()` | ❌ Not Done | — | — |
-| `GetTargetHP()` | ❌ Not Done | — | — |
-| `GetTargetHPP()` | ❌ Not Done | — | — |
-| `GetTargetHitboxRadius()` | ❌ Not Done | — | — |
-| `GetTargetHuntRank()` | ❌ Not Done | — | — |
-| `GetTargetMaxHP()` | ❌ Not Done | — | — |
-| `GetTargetObjectKind()` | ❌ Not Done | — | — |
-| `GetTargetRawXPos()` | ❌ Not Done | — | — |
-| `GetTargetRawYPos()` | ❌ Not Done | — | — |
-| `GetTargetRawZPos()` | ❌ Not Done | — | — |
-| `GetTargetRotation()` | ❌ Not Done | — | — |
-| `GetTargetSubKind()` | ❌ Not Done | — | — |
-| `GetTargetWorldId()` | ❌ Not Done | — | — |
-| `GetTargetWorldName()` | ❌ Not Done | — | — |
-| `GetToastNodeText()` | ❌ Not Done | — | — |
-| `GetTradeableWhiteItemIDs()` | ❌ Not Done | — | — |
-| `GetTrapLocations()` | ❌ Not Done | — | — |
-| `GetType()` | ❌ Not Done | — | — |
-| `GetWeeklyBingoOrderDataData()` | ❌ Not Done | — | — |
-| `GetWeeklyBingoOrderDataKey()` | ❌ Not Done | — | — |
-| `GetWeeklyBingoOrderDataText()` | ❌ Not Done | — | — |
-| `GetWeeklyBingoOrderDataType()` | ❌ Not Done | — | — |
-| `GetWeeklyBingoTaskStatus()` | ❌ Not Done | — | — |
-| `GetZoneInstance()` | ❌ Not Done | — | — |
-| `GetZoneName()` | ❌ Not Done | — | — |
-| `HasCondition()` | ❌ Not Done | — | — |
-| `HasFlightUnlocked()` | ❌ Not Done | — | — |
-| `HasMaxProgress()` | ❌ Not Done | — | — |
-| `HasMaxQuality()` | ❌ Not Done | — | — |
-| `HasPlugin()` | ❌ Not Done | — | — |
-| `HasStats()` | ❌ Not Done | — | — |
-| `HasStatus()` | ❌ Not Done | — | — |
-| `HasStatusId()` | ❌ Not Done | — | — |
-| `HasTarget()` | ❌ Not Done | — | — |
-| `HasWeeklyBingoJournal()` | ❌ Not Done | — | — |
-| `InSanctuary()` | ❌ Not Done | — | — |
-| `InternalGetMacroText()` | ❌ Not Done | — | — |
-| `IsAchievementComplete()` | ❌ Not Done | — | — |
-| `IsAetheryteUnlocked()` | ❌ Not Done | — | — |
-| `IsCollectable()` | ❌ Not Done | — | — |
-| `IsCrafting()` | ❌ Not Done | — | — |
-| `IsFocusTargetCasting()` | ❌ Not Done | — | — |
-| `IsFriendOnline()` | ❌ Not Done | — | — |
-| `IsInFate()` | ❌ Not Done | — | — |
-| `IsLeveAccepted()` | ❌ Not Done | — | — |
-| `IsLevelSynced()` | ❌ Not Done | — | — |
-| `IsLocalPlayerNull()` | ❌ Not Done | — | — |
-| `IsMacroRunningOrQueued()` | ❌ Not Done | — | — |
-| `IsNotCrafting()` | ❌ Not Done | — | — |
-| `IsObjectCasting()` | ❌ Not Done | — | — |
-| `IsObjectInCombat()` | ❌ Not Done | — | — |
-| `IsObjectMounted()` | ❌ Not Done | — | — |
-| `IsPartyMemberCasting()` | ❌ Not Done | — | — |
-| `IsPartyMemberInCombat()` | ❌ Not Done | — | — |
-| `IsPartyMemberMounted()` | ❌ Not Done | — | — |
-| `IsPauseLoopSet()` | ❌ Not Done | — | — |
-| `IsPlayerOccupied()` | ❌ Not Done | — | — |
-| `IsQuestAccepted()` | ❌ Not Done | — | — |
-| `IsQuestComplete()` | ❌ Not Done | — | — |
-| `IsStopLoopSet()` | ❌ Not Done | — | — |
-| `IsTargetCasting()` | ❌ Not Done | — | — |
-| `IsTargetInCombat()` | ❌ Not Done | — | — |
-| `IsTargetMounted()` | ❌ Not Done | — | — |
-| `IsVislandRouteRunning()` | ❌ Not Done | — | — |
-| `IsWeeklyBingoExpired()` | ❌ Not Done | — | — |
-| `LeaveDuty()` | ❌ Not Done | — | — |
-| `LifestreamAbort()` | ❌ Not Done | — | — |
-| `LifestreamAethernetTeleport()` | ❌ Not Done | — | — |
-| `LifestreamExecuteCommand()` | ❌ Not Done | — | — |
-| `LifestreamIsBusy()` | ❌ Not Done | — | — |
-| `LifestreamTeleport()` | ❌ Not Done | — | — |
-| `LifestreamTeleportToApartment()` | ❌ Not Done | — | — |
-| `LifestreamTeleportToFC()` | ❌ Not Done | — | — |
-| `LifestreamTeleportToHome()` | ❌ Not Done | — | — |
-| `ListAllFunctions()` | ❌ Not Done | — | — |
-| `MoveItemToContainer()` | ❌ Not Done | — | — |
-| `NavBuildProgress()` | ❌ Not Done | — | — |
-| `NavIsAutoLoad()` | ❌ Not Done | — | — |
-| `NavIsReady()` | ❌ Not Done | — | — |
-| `NavPathfind()` | ❌ Not Done | — | — |
-| `NavRebuild()` | ❌ Not Done | — | — |
-| `NavReload()` | ❌ Not Done | — | — |
-| `NavSetAutoLoad()` | ❌ Not Done | — | — |
-| `NeedsRepair()` | ❌ Not Done | — | — |
-| `ObjectHasStatus()` | ❌ Not Done | — | — |
-| `OceanFishingIsSpectralActive()` | ❌ Not Done | — | — |
-| `OpenRegularDuty()` | ❌ Not Done | — | — |
-| `OpenRouletteDuty()` | ❌ Not Done | — | — |
-| `PandoraGetFeatureConfigEnabled()` | ❌ Not Done | — | — |
-| `PandoraGetFeatureEnabled()` | ❌ Not Done | — | — |
-| `PandoraPauseFeature()` | ❌ Not Done | — | — |
-| `PandoraSetFeatureConfigState()` | ❌ Not Done | — | — |
-| `PandoraSetFeatureState()` | ❌ Not Done | — | — |
-| `PartyMemberHasStatus()` | ❌ Not Done | — | — |
-| `PathGetAlignCamera()` | ❌ Not Done | — | — |
-| `PathGetMovementAllowed()` | ❌ Not Done | — | — |
-| `PathGetTolerance()` | ❌ Not Done | — | — |
-| `PathIsRunning()` | ❌ Not Done | — | — |
-| `PathMoveTo()` | ❌ Not Done | — | — |
-| `PathNumWaypoints()` | ❌ Not Done | — | — |
-| `PathSetAlignCamera()` | ❌ Not Done | — | — |
-| `PathSetMovementAllowed()` | ❌ Not Done | — | — |
-| `PathSetTolerance()` | ❌ Not Done | — | — |
-| `PathStop()` | ❌ Not Done | — | — |
-| `PathfindAndMoveTo()` | ❌ Not Done | — | — |
-| `PathfindInProgress()` | ❌ Not Done | — | — |
-| `PauseYesAlready()` | ❌ Not Done | — | — |
-| `QueryMeshNearestPointX()` | ❌ Not Done | — | — |
-| `QueryMeshNearestPointY()` | ❌ Not Done | — | — |
-| `QueryMeshNearestPointZ()` | ❌ Not Done | — | — |
-| `QueryMeshPointOnFloorX()` | ❌ Not Done | — | — |
-| `QueryMeshPointOnFloorY()` | ❌ Not Done | — | — |
-| `QueryMeshPointOnFloorZ()` | ❌ Not Done | — | — |
-| `QuestionableAddQuestPriority()` | ❌ Not Done | — | — |
-| `QuestionableClearQuestPriority()` | ❌ Not Done | — | — |
-| `QuestionableExportQuestPriority()` | ❌ Not Done | — | — |
-| `QuestionableGetCurrentQuestId()` | ❌ Not Done | — | — |
-| `QuestionableGetCurrentStepData()` | ❌ Not Done | — | — |
-| `QuestionableImportQuestPriority()` | ❌ Not Done | — | — |
-| `QuestionableInsertQuestPriority()` | ❌ Not Done | — | — |
-| `QuestionableIsQuestLocked()` | ❌ Not Done | — | — |
-| `QuestionableIsRunning()` | ❌ Not Done | — | — |
-| `RSRAddBlacklistNameID()` | ❌ Not Done | — | — |
-| `RSRAddPriorityNameID()` | ❌ Not Done | — | — |
-| `RSRChangeOperatingMode()` | ❌ Not Done | — | — |
-| `RSRRemoveBlacklistNameID()` | ❌ Not Done | — | — |
-| `RSRRemovePriorityNameID()` | ❌ Not Done | — | — |
-| `RSRTriggerSpecialState()` | ❌ Not Done | — | — |
-| `RequestAchievementProgress()` | ❌ Not Done | — | — |
-| `RestoreYesAlready()` | ❌ Not Done | — | — |
-| `SelectDuty()` | ❌ Not Done | — | — |
-| `SetAddersGCRank()` | ❌ Not Done | — | — |
-| `SetAutoHookAutoGigSize()` | ❌ Not Done | — | — |
-| `SetAutoHookAutoGigSpeed()` | ❌ Not Done | — | — |
-| `SetAutoHookAutoGigState()` | ❌ Not Done | — | — |
-| `SetAutoHookPreset()` | ❌ Not Done | — | — |
-| `SetAutoHookState()` | ❌ Not Done | — | — |
-| `SetClipboard()` | ❌ Not Done | — | — |
-| `SetDFExplorerMode()` | ❌ Not Done | — | — |
-| `SetDFJoinInProgress()` | ❌ Not Done | — | — |
-| `SetDFLanguageD()` | ❌ Not Done | — | — |
-| `SetDFLanguageE()` | ❌ Not Done | — | — |
-| `SetDFLanguageF()` | ❌ Not Done | — | — |
-| `SetDFLanguageJ()` | ❌ Not Done | — | — |
-| `SetDFLevelSync()` | ❌ Not Done | — | — |
-| `SetDFLimitedLeveling()` | ❌ Not Done | — | — |
-| `SetDFMinILvl()` | ❌ Not Done | — | — |
-| `SetDFSilenceEcho()` | ❌ Not Done | — | — |
-| `SetDFUnrestricted()` | ❌ Not Done | — | — |
-| `SetFlamesGCRank()` | ❌ Not Done | — | — |
-| `SetMaelstromGCRank()` | ❌ Not Done | — | — |
-| `SetMapFlag()` | ❌ Not Done | — | — |
-| `SetNodeText()` | ❌ Not Done | — | — |
-| `SetSNDProperty()` | ❌ Not Done | — | — |
-| `TargetClosestEnemy()` | ❌ Not Done | — | — |
-| `TargetClosestFateEnemy()` | ❌ Not Done | — | — |
-| `TargetHasStatus()` | ❌ Not Done | — | — |
-| `TeleportToGCTown()` | ❌ Not Done | — | — |
-| `TerritorySupportsMounting()` | ❌ Not Done | — | — |
-| `ToString()` | ❌ Not Done | — | — |
-| `UseAutoHookAnonymousPreset()` | ❌ Not Done | — | — |
-| `VislandIsRoutePaused()` | ❌ Not Done | — | — |
-| `VislandSetRoutePaused()` | ❌ Not Done | — | — |
-| `VislandStartRoute()` | ❌ Not Done | — | — |
-| `VislandStopRoute()` | ❌ Not Done | — | — |
-| `WeeklyBingoNumPlacedStickers()` | ❌ Not Done | — | — |
-| `WeeklyBingoNumSecondChancePoints()` | ❌ Not Done | — | — |
+| `ADContentHasPath()` | ❌ Incomplete | — | — |
+| `ADGetConfig()` | ❌ Incomplete | — | — |
+| `ADIsLooping()` | ❌ Incomplete | — | — |
+| `ADIsNavigating()` | ❌ Incomplete | — | — |
+| `ADIsStopped()` | ❌ Incomplete | — | — |
+| `ADListConfig()` | ❌ Incomplete | — | — |
+| `ADRun()` | ❌ Incomplete | — | — |
+| `ADSetConfig()` | ❌ Incomplete | — | — |
+| `ADStart()` | ❌ Incomplete | — | — |
+| `ADStop()` | ❌ Incomplete | — | — |
+| `ARAbortAllTasks()` | ❌ Incomplete | — | — |
+| `ARAnyWaitingToBeProcessed()` | ❌ Incomplete | — | — |
+| `ARAreAnyRetainersAvailableForCurrentChara()` | ❌ Incomplete | — | — |
+| `ARCanAutoLogin()` | ❌ Incomplete | — | — |
+| `ARDisableAllFunctions()` | ❌ Incomplete | — | — |
+| `ARDiscardGetItemsToDiscard()` | ❌ Incomplete | — | — |
+| `AREnableMultiMode()` | ❌ Incomplete | — | — |
+| `AREnqueueHET()` | ❌ Incomplete | — | — |
+| `AREnqueueInitiation()` | ❌ Incomplete | — | — |
+| `ARFinishCharacterPostProcess()` | ❌ Incomplete | — | — |
+| `ARGetCharacterCIDs()` | ❌ Incomplete | — | — |
+| `ARGetCharacterData()` | ❌ Incomplete | — | — |
+| `ARGetClosestRetainerVentureSecondsRemaining()` | ❌ Incomplete | — | — |
+| `ARGetEnabledRetainers()` | ❌ Incomplete | — | — |
+| `ARGetGCInfo()` | ❌ Incomplete | — | — |
+| `ARGetInventoryFreeSlotCount()` | ❌ Incomplete | — | — |
+| `ARGetMultiModeEnabled()` | ❌ Incomplete | — | — |
+| `ARGetOptionRetainerSense()` | ❌ Incomplete | — | — |
+| `ARGetOptionRetainerSenseThreshold()` | ❌ Incomplete | — | — |
+| `ARGetRegisteredCharacters()` | ❌ Incomplete | — | — |
+| `ARGetRegisteredEnabledCharacters()` | ❌ Incomplete | — | — |
+| `ARGetRegisteredEnabledRetainers()` | ❌ Incomplete | — | — |
+| `ARGetRegisteredRetainers()` | ❌ Incomplete | — | — |
+| `ARIsBusy()` | ❌ Incomplete | — | — |
+| `ARRelog()` | ❌ Incomplete | — | — |
+| `ARRetainersWaitingToBeProcessed()` | ❌ Incomplete | — | — |
+| `ARSetMultiModeEnabled()` | ❌ Incomplete | — | — |
+| `ARSetOptionRetainerSense()` | ❌ Incomplete | — | — |
+| `ARSetOptionRetainerSenseThreshold()` | ❌ Incomplete | — | — |
+| `ARSetSuppressed()` | ❌ Incomplete | — | — |
+| `ARSubsWaitingToBeProcessed()` | ❌ Incomplete | — | — |
+| `ATAddItemToCraftList()` | ❌ Incomplete | — | — |
+| `ATAddNewCraftList()` | ❌ Incomplete | — | — |
+| `ATCurrentCharacter()` | ❌ Incomplete | — | — |
+| `ATDisableBackgroundFilter()` | ❌ Incomplete | — | — |
+| `ATDisableCraftList()` | ❌ Incomplete | — | — |
+| `ATDisableUiFilter()` | ❌ Incomplete | — | — |
+| `ATEnableBackgroundFilter()` | ❌ Incomplete | — | — |
+| `ATEnableCraftList()` | ❌ Incomplete | — | — |
+| `ATEnableUiFilter()` | ❌ Incomplete | — | — |
+| `ATGetCharacterItems()` | ❌ Incomplete | — | — |
+| `ATGetCharacterItemsByType()` | ❌ Incomplete | — | — |
+| `ATGetCharactersOwnedByActive()` | ❌ Incomplete | — | — |
+| `ATGetCraftItems()` | ❌ Incomplete | — | — |
+| `ATGetCraftLists()` | ❌ Incomplete | — | — |
+| `ATGetFilterItems()` | ❌ Incomplete | — | — |
+| `ATGetRetrievalItems()` | ❌ Incomplete | — | — |
+| `ATGetSearchFilters()` | ❌ Incomplete | — | — |
+| `ATInventoryCountByType()` | ❌ Incomplete | — | — |
+| `ATInventoryCountByTypes()` | ❌ Incomplete | — | — |
+| `ATIsInitialized()` | ❌ Incomplete | — | — |
+| `ATItemCount()` | ❌ Incomplete | — | — |
+| `ATItemCountHQ()` | ❌ Incomplete | — | — |
+| `ATItemCountOwned()` | ❌ Incomplete | — | — |
+| `ATRemoveItemFromCraftList()` | ❌ Incomplete | — | — |
+| `ATToggleBackgroundFilter()` | ❌ Incomplete | — | — |
+| `ATToggleCraftList()` | ❌ Incomplete | — | — |
+| `ATToggleUiFilter()` | ❌ Incomplete | — | — |
+| `ArtisanCraftItem()` | ❌ Incomplete | — | — |
+| `ArtisanGetEnduranceStatus()` | ❌ Incomplete | — | — |
+| `ArtisanGetStopRequest()` | ❌ Incomplete | — | — |
+| `ArtisanIsListPaused()` | ❌ Incomplete | — | — |
+| `ArtisanIsListRunning()` | ❌ Incomplete | — | — |
+| `ArtisanSetEnduranceStatus()` | ❌ Incomplete | — | — |
+| `ArtisanSetListPause()` | ❌ Incomplete | — | — |
+| `ArtisanSetStopRequest()` | ❌ Incomplete | — | — |
+| `BMAddTransientStrategy()` | ❌ Incomplete | — | — |
+| `BMAddTransientStrategyTargetEnemyOID()` | ❌ Incomplete | — | — |
+| `BMClearActive()` | ❌ Incomplete | — | — |
+| `BMCreate()` | ❌ Incomplete | — | — |
+| `BMDelete()` | ❌ Incomplete | — | — |
+| `BMGet()` | ❌ Incomplete | — | — |
+| `BMGetActive()` | ❌ Incomplete | — | — |
+| `BMGetForceDisabled()` | ❌ Incomplete | — | — |
+| `BMSetActive()` | ❌ Incomplete | — | — |
+| `BMSetForceDisabled()` | ❌ Incomplete | — | — |
+| `CanExtractMateria()` | ❌ Incomplete | — | — |
+| `ClearFocusTarget()` | ❌ Incomplete | — | — |
+| `ClearTarget()` | ❌ Incomplete | — | — |
+| `CrashTheGame()` | ❌ Incomplete | — | — |
+| `DeleteAllAutoHookAnonymousPresets()` | ❌ Incomplete | — | — |
+| `DeletedSelectedAutoHookPreset()` | ❌ Incomplete | — | — |
+| `DeliverooIsTurnInRunning()` | ❌ Incomplete | — | — |
+| `DistanceBetween()` | ❌ Incomplete | — | — |
+| `DoesObjectExist()` | ❌ Incomplete | — | — |
+| `DropboxGetItemQuantity()` | ❌ Incomplete | — | — |
+| `DropboxIsBusy()` | ❌ Incomplete | — | — |
+| `DropboxSetItemQuantity()` | ❌ Incomplete | — | — |
+| `DropboxStart()` | ❌ Incomplete | — | — |
+| `DropboxStop()` | ❌ Incomplete | — | — |
+| `Equals()` | ❌ Incomplete | — | — |
+| `ExecuteAction()` | ❌ Incomplete | — | — |
+| `ExecuteGeneralAction()` | ❌ Incomplete | — | — |
+| `FocusTargetHasStatus()` | ❌ Incomplete | — | — |
+| `GetAcceptedQuests()` | ❌ Incomplete | — | — |
+| `GetAccursedHoardRawX()` | ❌ Incomplete | — | — |
+| `GetAccursedHoardRawY()` | ❌ Incomplete | — | — |
+| `GetAccursedHoardRawZ()` | ❌ Incomplete | — | — |
+| `GetActionStackCount()` | ❌ Incomplete | — | — |
+| `GetActiveFates()` | ❌ Incomplete | — | — |
+| `GetActiveMacroName()` | ❌ Incomplete | — | — |
+| `GetActiveMiniMapGatheringMarker()` | ❌ Incomplete | — | — |
+| `GetActiveWeatherID()` | ❌ Incomplete | — | — |
+| `GetAddersGCRank()` | ❌ Incomplete | — | — |
+| `GetAetheryteList()` | ❌ Incomplete | — | — |
+| `GetAetheryteName()` | ❌ Incomplete | — | — |
+| `GetAetheryteRawPos()` | ❌ Incomplete | — | — |
+| `GetAetherytesInZone()` | ❌ Incomplete | — | — |
+| `GetBronzeChestLocations()` | ❌ Incomplete | — | — |
+| `GetBuddyTimeRemaining()` | ❌ Incomplete | — | — |
+| `GetClassJobId()` | ❌ Incomplete | — | Returns the current class/job ID (type: Job)  |
+| `GetClicks()` | ❌ Incomplete | — | — |
+| `GetClipboard()` | ❌ Incomplete | — | — |
+| `GetCondition()` | ❌ Incomplete | — | — |
+| `GetContentTimeLeft()` | ❌ Incomplete | — | — |
+| `GetCp()` | ❌ Incomplete | — | — |
+| `GetCurrentBait()` | ❌ Incomplete | — | — |
+| `GetCurrentEorzeaHour()` | ❌ Incomplete | — | Returns the current in-game hour (type: integer) |
+| `GetCurrentEorzeaMinute()` | ❌ Incomplete | — | Returns the current in-game minute (type: integer) |
+| `GetCurrentEorzeaSecond()` | ❌ Incomplete | — | Returns the current in-game second (type: integer) |
+| `GetCurrentEorzeaTimestamp()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission1Goal()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission1Name()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission1Progress()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission1Type()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission2Goal()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission2Name()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission2Progress()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission2Type()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission3Goal()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission3Name()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission3Progress()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingMission3Type()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingPoints()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingRoute()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingScore()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingStatus()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingTimeOfDay()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingTimeOffset()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingTotalScore()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingWeatherID()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingZone()` | ❌ Incomplete | — | — |
+| `GetCurrentOceanFishingZoneTimeLeft()` | ❌ Incomplete | — | — |
+| `GetCurrentWorld()` | ❌ Incomplete | — | — |
+| `GetDDPassageProgress()` | ❌ Incomplete | — | — |
+| `GetDiademAetherGaugeBarCount()` | ❌ Incomplete | — | — |
+| `GetDistanceToFocusTarget()` | ❌ Incomplete | — | — |
+| `GetDistanceToObject()` | ❌ Incomplete | — | — |
+| `GetDistanceToPartyMember()` | ❌ Incomplete | — | — |
+| `GetDistanceToPoint()` | ❌ Incomplete | — | — |
+| `GetDurability()` | ❌ Incomplete | — | — |
+| `GetFCGrandCompany()` | ❌ Incomplete | — | — |
+| `GetFCOnlineMembers()` | ❌ Incomplete | — | — |
+| `GetFCRank()` | ❌ Incomplete | — | — |
+| `GetFCTotalMembers()` | ❌ Incomplete | — | — |
+| `GetFateChain()` | ❌ Incomplete | — | — |
+| `GetFateDuration()` | ❌ Incomplete | — | — |
+| `GetFateEventItem()` | ❌ Incomplete | — | — |
+| `GetFateHandInCount()` | ❌ Incomplete | — | — |
+| `GetFateIconId()` | ❌ Incomplete | — | — |
+| `GetFateIsBonus()` | ❌ Incomplete | — | — |
+| `GetFateLevel()` | ❌ Incomplete | — | — |
+| `GetFateLocationX()` | ❌ Incomplete | — | — |
+| `GetFateLocationY()` | ❌ Incomplete | — | — |
+| `GetFateLocationZ()` | ❌ Incomplete | — | — |
+| `GetFateMaxLevel()` | ❌ Incomplete | — | — |
+| `GetFateName()` | ❌ Incomplete | — | — |
+| `GetFateProgress()` | ❌ Incomplete | — | — |
+| `GetFateRadius()` | ❌ Incomplete | — | — |
+| `GetFateStartTimeEpoch()` | ❌ Incomplete | — | — |
+| `GetFateState()` | ❌ Incomplete | — | — |
+| `GetFlagXCoord()` | ❌ Incomplete | — | — |
+| `GetFlagYCoord()` | ❌ Incomplete | — | — |
+| `GetFlamesGCRank()` | ❌ Incomplete | — | — |
+| `GetFocusTargetActionID()` | ❌ Incomplete | — | — |
+| `GetFocusTargetFateID()` | ❌ Incomplete | — | — |
+| `GetFocusTargetHP()` | ❌ Incomplete | — | — |
+| `GetFocusTargetHPP()` | ❌ Incomplete | — | — |
+| `GetFocusTargetMaxHP()` | ❌ Incomplete | — | — |
+| `GetFocusTargetName()` | ❌ Incomplete | — | — |
+| `GetFocusTargetRawXPos()` | ❌ Incomplete | — | — |
+| `GetFocusTargetRawYPos()` | ❌ Incomplete | — | — |
+| `GetFocusTargetRawZPos()` | ❌ Incomplete | — | — |
+| `GetFocusTargetRotation()` | ❌ Incomplete | — | — |
+| `GetFreeSlotsInContainer()` | ❌ Incomplete | — | — |
+| `GetGil()` | ❌ Incomplete | — | — |
+| `GetGoldChestLocations()` | ❌ Incomplete | — | — |
+| `GetGp()` | ❌ Incomplete | — | — |
+| `GetHP()` | ❌ Incomplete | — | — |
+| `GetHashCode()` | ❌ Incomplete | — | — |
+| `GetHomeWorld()` | ❌ Incomplete | — | — |
+| `GetInventoryFreeSlotCount()` | ❌ Incomplete | — | — |
+| `GetItemCount()` | ❌ Incomplete | — | — |
+| `GetItemCountInContainer()` | ❌ Incomplete | — | — |
+| `GetItemCountInSlot()` | ❌ Incomplete | — | — |
+| `GetItemIdInSlot()` | ❌ Incomplete | — | — |
+| `GetItemIdsInContainer()` | ❌ Incomplete | — | — |
+| `GetItemName()` | ❌ Incomplete | — | — |
+| `GetJobExp()` | ❌ Incomplete | — | — |
+| `GetLevel()` | ❌ Incomplete | — | — |
+| `GetLimitBreakBarCount()` | ❌ Incomplete | — | — |
+| `GetLimitBreakBarValue()` | ❌ Incomplete | — | — |
+| `GetLimitBreakCurrentValue()` | ❌ Incomplete | — | — |
+| `GetMP()` | ❌ Incomplete | — | — |
+| `GetMaelstromGCRank()` | ❌ Incomplete | — | — |
+| `GetMaxCp()` | ❌ Incomplete | — | — |
+| `GetMaxDurability()` | ❌ Incomplete | — | — |
+| `GetMaxGp()` | ❌ Incomplete | — | — |
+| `GetMaxHP()` | ❌ Incomplete | — | — |
+| `GetMaxMP()` | ❌ Incomplete | — | — |
+| `GetMaxProgress()` | ❌ Incomplete | — | — |
+| `GetMaxQuality()` | ❌ Incomplete | — | — |
+| `GetMimicChestLocations()` | ❌ Incomplete | — | — |
+| `GetMonsterNoteRankInfo()` | ❌ Incomplete | — | — |
+| `GetNearbyObjectNames()` | ❌ Incomplete | — | — |
+| `GetNearestFate()` | ❌ Incomplete | — | — |
+| `GetNodeListCount()` | ❌ Incomplete | — | — |
+| `GetObjectActionID()` | ❌ Incomplete | — | — |
+| `GetObjectDataID()` | ❌ Incomplete | — | — |
+| `GetObjectFateID()` | ❌ Incomplete | — | — |
+| `GetObjectHP()` | ❌ Incomplete | — | — |
+| `GetObjectHPP()` | ❌ Incomplete | — | — |
+| `GetObjectHitboxRadius()` | ❌ Incomplete | — | — |
+| `GetObjectHuntRank()` | ❌ Incomplete | — | — |
+| `GetObjectMaxHP()` | ❌ Incomplete | — | — |
+| `GetObjectRawXPos()` | ❌ Incomplete | — | — |
+| `GetObjectRawYPos()` | ❌ Incomplete | — | — |
+| `GetObjectRawZPos()` | ❌ Incomplete | — | — |
+| `GetObjectRotation()` | ❌ Incomplete | — | — |
+| `GetPartyLeadIndex()` | ❌ Incomplete | — | — |
+| `GetPartyMemberActionID()` | ❌ Incomplete | — | — |
+| `GetPartyMemberHP()` | ❌ Incomplete | — | — |
+| `GetPartyMemberHPP()` | ❌ Incomplete | — | — |
+| `GetPartyMemberMaxHP()` | ❌ Incomplete | — | — |
+| `GetPartyMemberName()` | ❌ Incomplete | — | — |
+| `GetPartyMemberRawXPos()` | ❌ Incomplete | — | — |
+| `GetPartyMemberRawYPos()` | ❌ Incomplete | — | — |
+| `GetPartyMemberRawZPos()` | ❌ Incomplete | — | — |
+| `GetPartyMemberRotation()` | ❌ Incomplete | — | — |
+| `GetPartyMemberWorldId()` | ❌ Incomplete | — | — |
+| `GetPartyMemberWorldName()` | ❌ Incomplete | — | — |
+| `GetPassageLocation()` | ❌ Incomplete | — | — |
+| `GetPenaltyRemainingInMinutes()` | ❌ Incomplete | — | — |
+| `GetPercentHQ()` | ❌ Incomplete | — | — |
+| `GetPlayerAccountId()` | ❌ Incomplete | — | — |
+| `GetPlayerContentId()` | ❌ Incomplete | — | — |
+| `GetPlayerGC()` | ❌ Incomplete | — | — |
+| `GetPluginVersion()` | ❌ Incomplete | — | — |
+| `GetProgress()` | ❌ Incomplete | — | — |
+| `GetProgressIncrease()` | ❌ Incomplete | — | — |
+| `GetQuality()` | ❌ Incomplete | — | — |
+| `GetQualityIncrease()` | ❌ Incomplete | — | — |
+| `GetQuestAlliedSociety()` | ❌ Incomplete | — | — |
+| `GetQuestIDByName()` | ❌ Incomplete | — | — |
+| `GetQuestSequence()` | ❌ Incomplete | — | — |
+| `GetRealRecastTime()` | ❌ Incomplete | — | — |
+| `GetRealRecastTimeElapsed()` | ❌ Incomplete | — | — |
+| `GetRealSpellCooldown()` | ❌ Incomplete | — | — |
+| `GetRecastTime()` | ❌ Incomplete | — | — |
+| `GetRecastTimeElapsed()` | ❌ Incomplete | — | — |
+| `GetRequestedAchievementProgress()` | ❌ Incomplete | — | — |
+| `GetSNDProperty()` | ❌ Incomplete | — | — |
+| `GetSelectIconStringText()` | ❌ Incomplete | — | — |
+| `GetSelectStringText()` | ❌ Incomplete | — | — |
+| `GetShieldPercentage()` | ❌ Incomplete | — | — |
+| `GetSilverChestLocations()` | ❌ Incomplete | — | — |
+| `GetSpellCooldown()` | ❌ Incomplete | — | — |
+| `GetSpellCooldownInt()` | ❌ Incomplete | — | — |
+| `GetStatusSourceID()` | ❌ Incomplete | — | — |
+| `GetStatusStackCount()` | ❌ Incomplete | — | — |
+| `GetStatusTimeRemaining()` | ❌ Incomplete | — | — |
+| `GetStep()` | ❌ Incomplete | — | — |
+| `GetTargetActionID()` | ❌ Incomplete | — | — |
+| `GetTargetFateID()` | ❌ Incomplete | — | — |
+| `GetTargetHP()` | ❌ Incomplete | — | — |
+| `GetTargetHPP()` | ❌ Incomplete | — | — |
+| `GetTargetHitboxRadius()` | ❌ Incomplete | — | — |
+| `GetTargetHuntRank()` | ❌ Incomplete | — | — |
+| `GetTargetMaxHP()` | ❌ Incomplete | — | — |
+| `GetTargetObjectKind()` | ❌ Incomplete | — | — |
+| `GetTargetRawXPos()` | ❌ Incomplete | — | — |
+| `GetTargetRawYPos()` | ❌ Incomplete | — | — |
+| `GetTargetRawZPos()` | ❌ Incomplete | — | — |
+| `GetTargetRotation()` | ❌ Incomplete | — | — |
+| `GetTargetSubKind()` | ❌ Incomplete | — | — |
+| `GetTargetWorldId()` | ❌ Incomplete | — | — |
+| `GetTargetWorldName()` | ❌ Incomplete | — | — |
+| `GetToastNodeText()` | ❌ Incomplete | — | — |
+| `GetTradeableWhiteItemIDs()` | ❌ Incomplete | — | — |
+| `GetTrapLocations()` | ❌ Incomplete | — | — |
+| `GetType()` | ❌ Incomplete | — | — |
+| `GetWeeklyBingoOrderDataData()` | ❌ Incomplete | — | — |
+| `GetWeeklyBingoOrderDataKey()` | ❌ Incomplete | — | — |
+| `GetWeeklyBingoOrderDataText()` | ❌ Incomplete | — | — |
+| `GetWeeklyBingoOrderDataType()` | ❌ Incomplete | — | — |
+| `GetWeeklyBingoTaskStatus()` | ❌ Incomplete | — | — |
+| `GetZoneInstance()` | ❌ Incomplete | — | — |
+| `GetZoneName()` | ❌ Incomplete | — | — |
+| `HasCondition()` | ❌ Incomplete | — | — |
+| `HasFlightUnlocked()` | ❌ Incomplete | — | — |
+| `HasMaxProgress()` | ❌ Incomplete | — | — |
+| `HasMaxQuality()` | ❌ Incomplete | — | — |
+| `HasPlugin()` | ❌ Incomplete | — | — |
+| `HasStats()` | ❌ Incomplete | — | — |
+| `HasStatus()` | ❌ Incomplete | — | — |
+| `HasStatusId()` | ❌ Incomplete | — | — |
+| `HasTarget()` | ❌ Incomplete | — | — |
+| `HasWeeklyBingoJournal()` | ❌ Incomplete | — | — |
+| `InSanctuary()` | ❌ Incomplete | — | — |
+| `InternalGetMacroText()` | ❌ Incomplete | — | — |
+| `IsAchievementComplete()` | ❌ Incomplete | — | — |
+| `IsAetheryteUnlocked()` | ❌ Incomplete | — | — |
+| `IsCollectable()` | ❌ Incomplete | — | — |
+| `IsCrafting()` | ❌ Incomplete | — | — |
+| `IsFocusTargetCasting()` | ❌ Incomplete | — | — |
+| `IsFriendOnline()` | ❌ Incomplete | — | — |
+| `IsInFate()` | ❌ Incomplete | — | — |
+| `IsLeveAccepted()` | ❌ Incomplete | — | — |
+| `IsLevelSynced()` | ❌ Incomplete | — | — |
+| `IsLocalPlayerNull()` | ❌ Incomplete | — | — |
+| `IsMacroRunningOrQueued()` | ❌ Incomplete | — | — |
+| `IsNotCrafting()` | ❌ Incomplete | — | — |
+| `IsObjectCasting()` | ❌ Incomplete | — | — |
+| `IsObjectInCombat()` | ❌ Incomplete | — | — |
+| `IsObjectMounted()` | ❌ Incomplete | — | — |
+| `IsPartyMemberCasting()` | ❌ Incomplete | — | — |
+| `IsPartyMemberInCombat()` | ❌ Incomplete | — | — |
+| `IsPartyMemberMounted()` | ❌ Incomplete | — | — |
+| `IsPauseLoopSet()` | ❌ Incomplete | — | — |
+| `IsPlayerOccupied()` | ❌ Incomplete | — | — |
+| `IsQuestAccepted()` | ❌ Incomplete | — | — |
+| `IsQuestComplete()` | ❌ Incomplete | — | — |
+| `IsStopLoopSet()` | ❌ Incomplete | — | — |
+| `IsTargetCasting()` | ❌ Incomplete | — | — |
+| `IsTargetInCombat()` | ❌ Incomplete | — | — |
+| `IsTargetMounted()` | ❌ Incomplete | — | — |
+| `IsVislandRouteRunning()` | ❌ Incomplete | — | — |
+| `IsWeeklyBingoExpired()` | ❌ Incomplete | — | — |
+| `LeaveDuty()` | ❌ Incomplete | — | — |
+| `LifestreamAbort()` | ❌ Incomplete | — | — |
+| `LifestreamAethernetTeleport()` | ❌ Incomplete | — | — |
+| `LifestreamExecuteCommand()` | ❌ Incomplete | — | — |
+| `LifestreamIsBusy()` | ❌ Incomplete | — | — |
+| `LifestreamTeleport()` | ❌ Incomplete | — | — |
+| `LifestreamTeleportToApartment()` | ❌ Incomplete | — | — |
+| `LifestreamTeleportToFC()` | ❌ Incomplete | — | — |
+| `LifestreamTeleportToHome()` | ❌ Incomplete | — | — |
+| `ListAllFunctions()` | ❌ Incomplete | — | — |
+| `MoveItemToContainer()` | ❌ Incomplete | — | — |
+| `NavBuildProgress()` | ❌ Incomplete | — | — |
+| `NavIsAutoLoad()` | ❌ Incomplete | — | — |
+| `NavIsReady()` | ❌ Incomplete | — | — |
+| `NavPathfind()` | ❌ Incomplete | — | — |
+| `NavRebuild()` | ❌ Incomplete | — | — |
+| `NavReload()` | ❌ Incomplete | — | — |
+| `NavSetAutoLoad()` | ❌ Incomplete | — | — |
+| `NeedsRepair()` | ❌ Incomplete | — | — |
+| `ObjectHasStatus()` | ❌ Incomplete | — | — |
+| `OceanFishingIsSpectralActive()` | ❌ Incomplete | — | — |
+| `OpenRegularDuty()` | ❌ Incomplete | — | — |
+| `OpenRouletteDuty()` | ❌ Incomplete | — | — |
+| `PandoraGetFeatureConfigEnabled()` | ❌ Incomplete | — | — |
+| `PandoraGetFeatureEnabled()` | ❌ Incomplete | — | — |
+| `PandoraPauseFeature()` | ❌ Incomplete | — | — |
+| `PandoraSetFeatureConfigState()` | ❌ Incomplete | — | — |
+| `PandoraSetFeatureState()` | ❌ Incomplete | — | — |
+| `PartyMemberHasStatus()` | ❌ Incomplete | — | — |
+| `PathGetAlignCamera()` | ❌ Incomplete | — | — |
+| `PathGetMovementAllowed()` | ❌ Incomplete | — | — |
+| `PathGetTolerance()` | ❌ Incomplete | — | — |
+| `PathIsRunning()` | ❌ Incomplete | — | — |
+| `PathMoveTo()` | ❌ Incomplete | — | — |
+| `PathNumWaypoints()` | ❌ Incomplete | — | — |
+| `PathSetAlignCamera()` | ❌ Incomplete | — | — |
+| `PathSetMovementAllowed()` | ❌ Incomplete | — | — |
+| `PathSetTolerance()` | ❌ Incomplete | — | — |
+| `PathStop()` | ❌ Incomplete | — | — |
+| `PathfindAndMoveTo()` | ❌ Incomplete | — | — |
+| `PathfindInProgress()` | ❌ Incomplete | — | — |
+| `PauseYesAlready()` | ❌ Incomplete | — | — |
+| `QueryMeshNearestPointX()` | ❌ Incomplete | — | — |
+| `QueryMeshNearestPointY()` | ❌ Incomplete | — | — |
+| `QueryMeshNearestPointZ()` | ❌ Incomplete | — | — |
+| `QueryMeshPointOnFloorX()` | ❌ Incomplete | — | — |
+| `QueryMeshPointOnFloorY()` | ❌ Incomplete | — | — |
+| `QueryMeshPointOnFloorZ()` | ❌ Incomplete | — | — |
+| `QuestionableAddQuestPriority()` | ❌ Incomplete | — | — |
+| `QuestionableClearQuestPriority()` | ❌ Incomplete | — | — |
+| `QuestionableExportQuestPriority()` | ❌ Incomplete | — | — |
+| `QuestionableGetCurrentQuestId()` | ❌ Incomplete | — | — |
+| `QuestionableGetCurrentStepData()` | ❌ Incomplete | — | — |
+| `QuestionableImportQuestPriority()` | ❌ Incomplete | — | — |
+| `QuestionableInsertQuestPriority()` | ❌ Incomplete | — | — |
+| `QuestionableIsQuestLocked()` | ❌ Incomplete | — | — |
+| `QuestionableIsRunning()` | ❌ Incomplete | — | — |
+| `RSRAddBlacklistNameID()` | ❌ Incomplete | — | — |
+| `RSRAddPriorityNameID()` | ❌ Incomplete | — | — |
+| `RSRChangeOperatingMode()` | ❌ Incomplete | — | — |
+| `RSRRemoveBlacklistNameID()` | ❌ Incomplete | — | — |
+| `RSRRemovePriorityNameID()` | ❌ Incomplete | — | — |
+| `RSRTriggerSpecialState()` | ❌ Incomplete | — | — |
+| `RequestAchievementProgress()` | ❌ Incomplete | — | — |
+| `RestoreYesAlready()` | ❌ Incomplete | — | — |
+| `SelectDuty()` | ❌ Incomplete | — | — |
+| `SetAddersGCRank()` | ❌ Incomplete | — | — |
+| `SetAutoHookAutoGigSize()` | ❌ Incomplete | — | — |
+| `SetAutoHookAutoGigSpeed()` | ❌ Incomplete | — | — |
+| `SetAutoHookAutoGigState()` | ❌ Incomplete | — | — |
+| `SetAutoHookPreset()` | ❌ Incomplete | — | — |
+| `SetAutoHookState()` | ❌ Incomplete | — | — |
+| `SetClipboard()` | ❌ Incomplete | — | — |
+| `SetDFExplorerMode()` | ❌ Incomplete | — | — |
+| `SetDFJoinInProgress()` | ❌ Incomplete | — | — |
+| `SetDFLanguageD()` | ❌ Incomplete | — | — |
+| `SetDFLanguageE()` | ❌ Incomplete | — | — |
+| `SetDFLanguageF()` | ❌ Incomplete | — | — |
+| `SetDFLanguageJ()` | ❌ Incomplete | — | — |
+| `SetDFLevelSync()` | ❌ Incomplete | — | — |
+| `SetDFLimitedLeveling()` | ❌ Incomplete | — | — |
+| `SetDFMinILvl()` | ❌ Incomplete | — | — |
+| `SetDFSilenceEcho()` | ❌ Incomplete | — | — |
+| `SetDFUnrestricted()` | ❌ Incomplete | — | — |
+| `SetFlamesGCRank()` | ❌ Incomplete | — | — |
+| `SetMaelstromGCRank()` | ❌ Incomplete | — | — |
+| `SetMapFlag()` | ❌ Incomplete | — | — |
+| `SetNodeText()` | ❌ Incomplete | — | — |
+| `SetSNDProperty()` | ❌ Incomplete | — | — |
+| `TargetClosestEnemy()` | ❌ Incomplete | — | — |
+| `TargetClosestFateEnemy()` | ❌ Incomplete | — | — |
+| `TargetHasStatus()` | ❌ Incomplete | — | — |
+| `TeleportToGCTown()` | ❌ Incomplete | — | — |
+| `TerritorySupportsMounting()` | ❌ Incomplete | — | — |
+| `ToString()` | ❌ Incomplete | — | — |
+| `UseAutoHookAnonymousPreset()` | ❌ Incomplete | — | — |
+| `VislandIsRoutePaused()` | ❌ Incomplete | — | — |
+| `VislandSetRoutePaused()` | ❌ Incomplete | — | — |
+| `VislandStartRoute()` | ❌ Incomplete | — | — |
+| `VislandStopRoute()` | ❌ Incomplete | — | — |
+| `WeeklyBingoNumPlacedStickers()` | ❌ Incomplete | — | — |
+| `WeeklyBingoNumSecondChancePoints()` | ❌ Incomplete | — | — |
